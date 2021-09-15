@@ -5,7 +5,7 @@ const ensureAdmin = (
   response: Response,
   next: NextFunction
 ) => {
-  const admin = false;
+  const admin = true;
 
   if (admin) return next();
 
